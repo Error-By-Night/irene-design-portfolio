@@ -1,4 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url(https://db.onlinewebfonts.com/c/f05bbbfac1257664fc69ba21f8451b57?family=ABC+Diatype);
+
+@font-face{
+  font-family: "ABC Diatype";
+  src: url("f05bbbfac1257664fc69ba21f8451b57.eot");
+  src: url("f05bbbfac1257664fc69ba21f8451b57.eot?#iefix")format("embedded-opentype"),
+      url("f05bbbfac1257664fc69ba21f8451b57.woff")format("woff"),
+      url("f05bbbfac1257664fc69ba21f8451b57.woff2")format("woff2"),
+      url("f05bbbfac1257664fc69ba21f8451b57.ttf")format("truetype"),
+      url("f05bbbfac1257664fc69ba21f8451b57.svg#ABC Diatype")format("svg");
+  font-weight:normal;
+  font-style:normal;
+  font-display:swap;
+}
 
 :root {
   --primary-color: #a855f7;
@@ -21,7 +34,7 @@ a {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "ABC Diatype";
 }
 
 nav {
